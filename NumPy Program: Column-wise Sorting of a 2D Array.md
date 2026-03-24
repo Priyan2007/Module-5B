@@ -13,7 +13,23 @@ To write a **NumPy** program that sorts the elements in each column of a given 2
 
 ## 🧾 Program
 Add code here
+```
+import numpy as np
 
+# Input 2D array
+arr = np.array([[3, 1, 2],
+                [6, 4, 5],
+                [9, 7, 8]])
+
+print("Original Array:\n", arr)
+
+# Sort column-wise
+sorted_arr = np.sort(arr, axis=0)
+
+print("Column-wise Sorted Array:\n", sorted_arr)
+```
 ## Output
+<img width="402" height="361" alt="image" src="https://github.com/user-attachments/assets/4875df13-4ad3-4d5f-b3fa-d1bbbf6a0c39" />
 
 ## Result
+Thus the code run successfully!
